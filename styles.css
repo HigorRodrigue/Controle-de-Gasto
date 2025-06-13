@@ -1,0 +1,116 @@
+/* Define a aparência básica da página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para os cabeçalhos */
+h1, h2 {
+    color: #333;
+}
+
+/* Estilos para os links de navegação */
+.nav a {
+    text-decoration: none;
+    color: #007BFF;
+    margin: 10px;
+    font-size: 18px;
+}
+
+/* Estilos básicos para formulários */
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Estilos básicos para os campos de entrada */
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos básicos para os botões */
+button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 150px; /* Define o mesmo tamanho para todos os botões */
+    display: inline-block; /* Coloca os botões lado a lado */
+    margin: 10px; /* Adiciona espaçamento entre os botões */
+}
+
+/* Estilo para o hover (passar o cursor sobre o botão) */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para tabelas */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* Estilos para células da tabela */
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Estilos para os cabeçalhos da tabela */
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Responsividade: Ajustes para telas médias */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .nav a {
+        display: block;
+        margin: 5px 0;
+        font-size: 16px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    input {
+        width: 95%;
+    }
+
+    button {
+        width: auto; /* Adapta a largura dos botões em telas médias */
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+/* Responsividade: Ajustes para telas pequenas */
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 20px;
+    }
+
+    button {
+        width: auto; /* Botões ajustam automaticamente para caber no conteúdo */
+        font-size: 12px;
+        padding: 6px;
+    }
+}
