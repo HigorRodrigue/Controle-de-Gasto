@@ -16,7 +16,6 @@ Este é um sistema de controle de gastos pessoais, que permite aos usuários reg
 ## 🛠️ Tecnologias Utilizadas
 
 - **Backend:**
-  - Node.js / Express.js (ou outro framework)
   - Firebase Admin SDK (para autenticação)
   - Sequelize ou Knex (ORM/Query Builder)
   - Banco de dados SQL (MySQL, PostgreSQL, etc.)
